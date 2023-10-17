@@ -22,9 +22,23 @@ BONNE CHANCE 😀
 */
 
 // sans bonus
+const jFirst = 89;
+const jSecond = 120;
+const jThird = 103;
 
+const mFirst = 85;
+const mSecond = 104;
+const mThird = 123;
 
-
+const jMoyenne = (jFirst + jSecond + jThird) / 3;
+const mMoyenne = (mFirst + mSecond + mThird) / 3;
+if (mMoyenne > jMoyenne){
+    console.log(`L'équipe de Mike est la gagnante. Ils ont une moyenne de ${mMoyenne} points.`);
+}else if (mMoyenne < jMoyenne){
+    console.log(`L'équipe de John est la gagnante. Ils ont une moyenne de ${jMoyenne} points.`);
+}else if (mMoyenne === jMoyenne){
+    console.log(`L'équipe de Mike et celle de John sont égalités. Ils ont une moyenne de ${mMoyenne} points.`);
+}
 // avec bonus
 
 

@@ -24,8 +24,12 @@
 1. Demandez à l'utilisateur d'entrer un nombre et stockez-le dans une variable nombre
 2. Testez si le nombre est dans l'intervalle [0, 100]. Autrement dit, testez si 0 <= nombre <= 100. Si c'est le cas, affichez "… est compris entre 0 et 100".
 */
-
-
+const nombre = prompt('Entrez un nombre');
+if (0 <= nombre && nombre <=100){
+    console.log(`${nombre} est compris entre 0 et 100`);
+}else if (nombre < 0){
+    console.log(`${nombre} est négatif`);
+}
 
 // 2°) L'opérateur logique OU
 
